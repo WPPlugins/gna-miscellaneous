@@ -1,0 +1,47 @@
+.gna_more_info_anchor{
+    display: inline-block;
+    background-color: #D9D9D9;
+    color: #21759B;
+    font: 0.9em/1.455em "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+.gna_more_info_anchor:hover {
+    color: #333333;
+    cursor: pointer;
+}
+.gna_more_info_toggle_char {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 0 3px;
+    text-align: center;
+    background-color: #EDEDED;
+    width: 10px;
+}
+.gna_more_info_body{
+    margin: 10px 0 15px;
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;   
+    padding: 0 0 0 1em;
+}
+
+span.price span.del {
+	position: relative;
+}
+
+span.price span.del::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	border-bottom: 2px solid red;
+	width: 100%;
+}
+
+span.discounted_lbl {
+	font-size: .8em;
+	text-transform: lowercase;
+}
